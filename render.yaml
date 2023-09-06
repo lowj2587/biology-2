@@ -1,6 +1,6 @@
 
   services:
   - type: web
-    name: interstellar
+    name: intersteller
     env: docker
     plan: free
