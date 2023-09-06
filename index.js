@@ -31,6 +31,10 @@ app.get("/nature", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "play.html"));
 });
 
+app.get("/bio-1", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "emu.html"));
+});
+
 app.get("/forest", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "widgetbot.html"));
 });
