@@ -43,6 +43,10 @@ app.get("/go", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "go.html"));
 });
 
+app.get("/redirect-1", (req, res) => {
+  res.sendFile(path.join(__dirname, "static", "redirect-1.html"));
+});
+
 app.get("/settings", (req, res) => {
   res.sendFile(path.join(__dirname, "static", "settings.html"));
 });
